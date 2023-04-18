@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  padding: 5rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 2rem;
+  grid-auto-rows: 1fr;
+}
+
+.products article {
+  gap: 1rem;
+  display: grid;
+}
